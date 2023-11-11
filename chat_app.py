@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.title('Welcome to my CounsellingGPT pretotype webpage!')
+
 # Initialize session state for storing chat
 if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
